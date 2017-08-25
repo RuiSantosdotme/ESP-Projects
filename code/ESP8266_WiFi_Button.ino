@@ -21,7 +21,6 @@ const char* server = "maker.ifttt.com";
 
 void setup() {
   Serial.begin(115200); 
-  Serial.println();
 
   initWifi();
   makeIFTTTRequest();
